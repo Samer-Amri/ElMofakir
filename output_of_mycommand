@@ -1,0 +1,818 @@
+C:\xampp\htdocs\BackEnd\Laravel_Projects\El_Mofakirfly launch
+? You must be logged in to do this. Would you like to sign in? Yes
+Opening https://fly.io/app/auth/cli/7171776c6a6f6961357166646d6936756f37667735346e6c33647a3477667073 ...
+Waiting for session... Done
+successfully logged in as samer_amri@univ-biskra.dz
+Scanning source code
+Detected a Laravel app
+Creating app in C:\xampp\htdocs\BackEnd\Laravel_Projects\El_Mofakir
+We're about to launch your Laravel app on Fly.io. Here's what you're getting:
+
+Organization: AMRI samer
+                     (fly launch defaults to the personal org)
+Name:         el-mofakir
+                     (derived from your directory name)
+Region:       Madrid, Spain
+                     (this is the fastest region for you)
+App Machines: shared-cpu-1x, 1GB RAM
+                     (most apps need about 1GB of RAM)
+Postgres:     <none>
+                     (not requested)
+Redis:        Pay-as-you-go Plan: 10 GB Max Data Size, eviction disabled (determined from app source)
+Tigris:       <none>
+                     (not requested)
+
+? Do you want to tweak these settings before proceeding? No
+Created app 'el-mofakir' in organization 'personal'
+Admin URL: https://fly.io/apps/el-mofakir
+Hostname: el-mofakir.fly.dev
+Set secrets on el-mofakir: APP_KEY
+
+Your database el-mofakir-redis is ready. Apps in the personal org can connect to Redis at redis://default:a50ba84044aa4c0fa566ab5a41478395@fly-el-mofakir-redis.upstash.io:6379
+
+If you have redis-cli installed, use fly redis connect to get a Redis console.
+
+Your database is billed at $0.20 per 100K commands. If you're using Sidekiq or BullMQ, which poll Redis frequently, consider switching to a fixed-price plan. See https://fly.io/docs/reference/redis/#pricing
+
+Redis database el-mofakir-redis is set on el-mofakir as the REDIS_URL environment variable
+Wrote config file fly.toml
+Validating C:\xampp\htdocs\BackEnd\Laravel_Projects\El_Mofakir\fly.toml
+✓ Configuration is valid
+==> Building image
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+==> Building image with Depot
+--> build:  (​)
+[+] Building 763.2s (16/22)
+ => [internal] load build definition from Dockerfile       0.2s
+ => => transferring dockerfile: 3.86kB                     0.2s
+ => resolve image config for docker-image://docker.io/doc  1.4s
+ => docker-image://docker.io/docker/dockerfile:experiment  0.6s
+ => => resolve docker.io/docker/dockerfile:experimental@s  0.0s
+ => => sha256:d7f0373ffb1d5ac3477b10ab7f9 9.64MB / 9.64MB  0.5s
+ => => extracting sha256:d7f0373ffb1d5ac3477b10ab7f91cba7  0.1s
+ => [internal] load .dockerignore                          0.2s
+ => => transferring context: 476B                          0.2s
+ => [internal] load build definition from Dockerfile       0.0s
+ => => Deduplicating step ID [internal] load build defini  0.0s
+ => [internal] load metadata for docker.io/fideloper/fly-  1.0s
+ => [internal] load metadata for docker.io/library/node:1  1.0s
+ => [node_modules_go_brrr 1/7] FROM docker.io/library/no  10.2s
+ => => resolve docker.io/library/node:18@sha256:ddd173cd9  0.0s
+ => => sha256:e3d8693bad2fd07287529dd2f1bc71d 444B / 444B  0.3s
+ => => sha256:f110c757afc5699d6587a989cc7 1.25MB / 1.25MB  0.4s
+ => => sha256:eb173c1dbe92b367644a53adf 45.64MB / 45.64MB  0.9s
+ => => sha256:59ee42d02ee5edca29b89e9d18b 3.32kB / 3.32kB  0.3s
+ => => sha256:ad1c7cfc347f5c86fc2678b 211.27MB / 211.27MB  2.3s
+ => => sha256:7aadc5092c3b7a865666b14be 64.39MB / 64.39MB  1.0s
+ => => sha256:da802df85c965baeca9d39869 24.05MB / 24.05MB  0.6s
+ => => sha256:7d98d813d54f6207a57721008 49.56MB / 49.56MB  0.8s
+ => => extracting sha256:7d98d813d54f6207a57721008a408137  1.4s
+ => => extracting sha256:da802df85c965baeca9d39869f9e2cbb  0.5s
+ => => extracting sha256:7aadc5092c3b7a865666b14bef3d4d03  1.6s
+ => => extracting sha256:ad1c7cfc347f5c86fc2678b58f6a8fb6  4.3s
+ => => extracting sha256:59ee42d02ee5edca29b89e9d18b5bedd  0.0s
+ => => extracting sha256:eb173c1dbe92b367644a53adf5c00490  1.5s
+ => => extracting sha256:f110c757afc5699d6587a989cc741d88  0.1s
+ => => extracting sha256:e3d8693bad2fd07287529dd2f1bc71d4  0.0s
+ => [internal] load build context                        752.2s
+ => => transferring context: 37.22MB                     752.2s
+ => [base 1/5] FROM docker.io/fideloper/fly-laravel:7.4@s  3.7s
+ => => resolve docker.io/fideloper/fly-laravel:7.4@sha256  0.0s
+ => => sha256:4f4fb700ef54461cfa02571ae0db9a0dc 32B / 32B  0.2s
+ => => sha256:abada58941f05f2bd48af8b02e57eea 215B / 215B  0.2s
+ => => sha256:fd03924c1a7657a4b0c89ffad54642d 191B / 191B  0.1s
+ => => sha256:d452c6fccf64797b36f53806bef 1.12kB / 1.12kB  0.3s
+ => => sha256:8a1e2c37014e0c07b337444d2a1 7.50kB / 7.50kB  0.4s
+ => => sha256:062c3357a530854275f216fd9e8 2.06kB / 2.06kB  0.4s
+ => => sha256:f0177d2ab4323df5b395d24d1 74.38MB / 74.38MB  1.2s
+ => => sha256:5283934cc685a118a407c225d96a4d7 231B / 231B  0.3s
+ => => sha256:7fa5bfb747f2e069c580ac612643530 592B / 592B  0.4s
+ => => sha256:6414378b647780fee8fd903dd 29.54MB / 29.54MB  0.7s
+ => => sha256:6fb354e536e9cf79b971f71 738.92kB / 738.92kB  0.4s
+ => => extracting sha256:6414378b647780fee8fd903ddb9541d1  0.8s
+ => => extracting sha256:6fb354e536e9cf79b971f71930338e92  0.0s
+ => => extracting sha256:7fa5bfb747f2e069c580ac6126435308  0.0s
+ => => extracting sha256:5283934cc685a118a407c225d96a4d73  0.0s
+ => => extracting sha256:f0177d2ab4323df5b395d24d151acf88  2.0s
+ => => extracting sha256:062c3357a530854275f216fd9e85dc65  0.0s
+ => => extracting sha256:8a1e2c37014e0c07b337444d2a138d15  0.0s
+ => => extracting sha256:d452c6fccf64797b36f53806bef7b918  0.0s
+ => => extracting sha256:fd03924c1a7657a4b0c89ffad54642d9  0.0s
+ => => extracting sha256:abada58941f05f2bd48af8b02e57eea5  0.0s
+ => => extracting sha256:4f4fb700ef54461cfa02571ae0db9a0d  0.0s
+ => [node_modules_go_brrr 2/7] RUN mkdir /app              0.3s
+ => [node_modules_go_brrr 3/7] RUN mkdir -p  /app          0.1s
+ => [node_modules_go_brrr 4/7] WORKDIR /app                0.0s
+ => [node_modules_go_brrr 5/7] COPY . .                    0.4s
+ => [base 2/5] COPY . /var/www/html                        0.4s
+ => ERROR [base 3/5] RUN composer install --optimize-auto  6.3s
+------
+ > [base 3/5] RUN composer install --optimize-autoloader --no-dev     && mkdir -p storage/logs     && php artisan optimize:clear     && chown -R www-data:www-data /var/www/html     && echo "MAILTO=""\n* * * * * www-data /usr/bin/php /var/www/html/artisan schedule:run" > /etc/cron.d/laravel     && cp .fly/entrypoint.sh /entrypoint     && chmod +x /entrypoint:
+0.220 Installing dependencies from lock file
+0.228 Verifying lock file contents can be installed on current platform.
+0.257 Package operations: 116 installs, 0 updates, 0 removals
+0.260   - Downloading symfony/polyfill-php80 (v1.31.0)
+0.261   - Downloading symfony/polyfill-mbstring (v1.31.0)
+0.261   - Downloading symfony/deprecation-contracts (v2.5.3)
+0.262   - Downloading symfony/http-foundation (v5.4.44)
+0.262   - Downloading psr/http-message (1.1)
+0.262   - Downloading symfony/psr-http-message-bridge (v2.3.1)
+0.263   - Downloading symfony/polyfill-php73 (v1.31.0)
+0.263   - Downloading symfony/polyfill-ctype (v1.31.0)
+0.263   - Downloading psr/event-dispatcher (1.0.0)
+0.263   - Downloading symfony/event-dispatcher-contracts (v2.5.3)
+0.263   - Downloading symfony/event-dispatcher (v5.4.40)
+0.264   - Downloading symfony/var-dumper (v5.4.43)
+0.264   - Downloading psr/log (1.1.4)
+0.264   - Downloading symfony/error-handler (v5.4.42)
+0.264   - Downloading symfony/http-kernel (v5.4.44)
+0.265   - Downloading react/event-loop (v1.5.0)
+0.265   - Downloading evenement/evenement (v3.0.2)
+0.265   - Downloading react/stream (v1.4.0)
+0.265   - Downloading react/promise (v3.2.0)
+0.266   - Downloading react/cache (v1.2.0)
+0.266   - Downloading react/dns (v1.13.0)
+0.266   - Downloading react/socket (v1.16.0)
+0.267   - Downloading fig/http-message-util (1.1.5)
+0.267   - Downloading react/http (v1.10.0)
+0.267   - Downloading paragonie/random_compat (v9.99.100)
+0.267   - Downloading paragonie/sodium_compat (v1.21.1)
+0.267   - Downloading pusher/pusher-php-server (5.0.3)
+0.267   - Downloading voku/portable-ascii (1.6.1)
+0.268   - Downloading phpoption/phpoption (1.9.3)
+0.268   - Downloading graham-campbell/result-type (v1.1.3)
+0.268   - Downloading vlucas/phpdotenv (v5.6.1)
+0.268   - Downloading symfony/css-selector (v5.4.40)
+0.268   - Downloading tijsverkoyen/css-to-inline-styles (v2.2.7)
+0.268   - Downloading symfony/routing (v5.4.43)
+0.268   - Downloading symfony/process (v5.4.44)
+0.269   - Downloading symfony/polyfill-intl-normalizer (v1.31.0)
+0.269   - Downloading symfony/polyfill-intl-idn (v1.31.0)
+0.269   - Downloading symfony/mime (v5.4.43)
+0.269   - Downloading symfony/finder (v5.4.43)
+0.269   - Downloading symfony/polyfill-intl-grapheme (v1.31.0)
+0.269   - Downloading symfony/string (v5.4.44)
+0.269   - Downloading psr/container (1.1.2)
+0.270   - Downloading symfony/service-contracts (v2.5.3)
+0.270   - Downloading symfony/console (v5.4.44)
+0.270   - Downloading symfony/polyfill-iconv (v1.31.0)
+0.270   - Downloading doctrine/lexer (1.2.3)
+0.270   - Downloading egulias/email-validator (2.1.25)
+0.270   - Downloading swiftmailer/swiftmailer (v6.3.0)
+0.271   - Downloading symfony/polyfill-php81 (v1.31.0)
+0.271   - Downloading ramsey/collection (1.3.0)
+0.271   - Downloading brick/math (0.9.3)
+0.271   - Downloading ramsey/uuid (4.2.3)
+0.271   - Downloading psr/simple-cache (1.0.1)
+0.271   - Downloading opis/closure (3.6.3)
+0.272   - Downloading symfony/translation-contracts (v2.5.3)
+0.272   - Downloading symfony/translation (v5.4.44)
+0.272   - Downloading psr/clock (1.0.0)
+0.272   - Downloading carbonphp/carbon-doctrine-types (2.1.0)
+0.272   - Downloading nesbot/carbon (2.72.5)
+0.272   - Downloading monolog/monolog (2.9.3)
+0.273   - Downloading league/mime-type-detection (1.16.0)
+0.273   - Downloading league/flysystem (1.1.10)
+0.273   - Downloading nette/utils (v3.2.10)
+0.273   - Downloading nette/schema (v1.2.5)
+0.273   - Downloading dflydev/dot-access-data (v3.0.3)
+0.273   - Downloading league/config (v1.2.0)
+0.273   - Downloading league/commonmark (2.5.3)
+0.274   - Downloading laravel/serializable-closure (v1.3.5)
+0.274   - Downloading webmozart/assert (1.11.0)
+0.274   - Downloading dragonmantank/cron-expression (v3.4.0)
+0.274   - Downloading doctrine/inflector (2.0.10)
+0.274   - Downloading laravel/framework (v8.83.27)
+0.275   - Downloading ralouphie/getallheaders (3.0.3)
+0.275   - Downloading psr/http-factory (1.1.0)
+0.275   - Downloading guzzlehttp/psr7 (2.7.0)
+0.275   - Downloading facade/ignition-contracts (1.0.2)
+0.275   - Downloading ratchet/rfc6455 (v0.3.1)
+0.275   - Downloading cboden/ratchet (v0.4.4)
+0.275   - Downloading beyondcode/laravel-websockets (1.14.1)
+0.276   - Downloading cocur/slugify (v4.5.0)
+0.276   - Downloading cviebrock/eloquent-sluggable (8.0.8)
+0.276   - Downloading fideloper/proxy (4.4.2)
+0.276   - Downloading asm89/stack-cors (v2.2.0)
+0.276   - Downloading fruitcake/laravel-cors (v2.2.0)
+0.276   - Downloading guzzlehttp/promises (2.0.4)
+0.277   - Downloading intervention/image (2.7.2)
+0.277   - Downloading intervention/imagecache (2.6.0)
+0.277   - Downloading laravel/legacy-factories (v1.4.0)
+0.277   - Downloading paragonie/constant_time_encoding (v2.7.0)
+0.277   - Downloading phpseclib/phpseclib (3.0.42)
+0.277   - Downloading nyholm/psr7 (1.8.2)
+0.278   - Downloading league/uri-interfaces (2.3.0)
+0.278   - Downloading league/uri (6.7.2)
+0.278   - Downloading league/event (2.2.0)
+0.278   - Downloading lcobucci/clock (2.0.0)
+0.278   - Downloading lcobucci/jwt (4.0.4)
+0.278   - Downloading defuse/php-encryption (v2.4.0)
+0.279   - Downloading league/oauth2-server (8.4.2)
+0.279   - Downloading firebase/php-jwt (v6.10.0)
+0.279   - Downloading laravel/passport (v10.4.2)
+0.279   - Downloading psr/http-client (1.0.3)
+0.279   - Downloading guzzlehttp/guzzle (7.9.2)
+0.279   - Downloading league/oauth1-client (v1.10.1)
+0.279   - Downloading laravel/socialite (v5.16.0)
+0.280   - Downloading nikic/php-parser (v5.3.1)
+0.280   - Downloading psy/psysh (v0.12.4)
+0.280   - Downloading laravel/tinker (v2.10.0)
+0.280   - Downloading laravel/ui (v3.4.6)
+0.280   - Downloading laravelcollective/html (v6.4.1)
+0.280   - Downloading livewire/livewire (v2.12.8)
+0.281   - Downloading mindscms/entrust (v2.6.0)
+0.281   - Downloading nicolaslopezj/searchable (1.13.0)
+0.281   - Downloading predis/predis (v1.1.10)
+0.281   - Downloading spatie/valuestore (1.3.0)
+0.281   - Downloading ezyang/htmlpurifier (v4.17.0)
+0.281   - Downloading stevebauman/purify (v4.0.1)
+0.290    0/116 [>---------------------------]   0%
+1.341    7/116 [=>--------------------------]   6%
+1.455   16/116 [===>------------------------]  13%
+1.663   29/116 [=======>--------------------]  25%
+1.763   40/116 [=========>------------------]  34%
+1.865   52/116 [============>---------------]  44%
+1.971   58/116 [==============>-------------]  50%
+2.175   76/116 [==================>---------]  65%
+2.277   84/116 [====================>-------]  72%
+2.381   97/116 [=======================>----]  83%
+2.616  108/116 [==========================>-]  93%
+2.750  116/116 [============================] 100%
+2.750   - Installing symfony/polyfill-php80 (v1.31.0): Extracting archive
+2.754   - Installing symfony/polyfill-mbstring (v1.31.0): Extracting archive
+2.755   - Installing symfony/deprecation-contracts (v2.5.3): Extracting archive
+2.757   - Installing symfony/http-foundation (v5.4.44): Extracting archive
+2.759   - Installing psr/http-message (1.1): Extracting archive
+2.760   - Installing symfony/psr-http-message-bridge (v2.3.1): Extracting archive
+2.762   - Installing symfony/polyfill-php73 (v1.31.0): Extracting archive
+2.764   - Installing symfony/polyfill-ctype (v1.31.0): Extracting archive
+2.765   - Installing psr/event-dispatcher (1.0.0): Extracting archive
+2.767   - Installing symfony/event-dispatcher-contracts (v2.5.3): Extracting archive
+2.768   - Installing symfony/event-dispatcher (v5.4.40): Extracting archive
+2.769   - Installing symfony/var-dumper (v5.4.43): Extracting archive
+2.769   - Installing psr/log (1.1.4): Extracting archive
+2.769   - Installing symfony/error-handler (v5.4.42): Extracting archive
+2.769   - Installing symfony/http-kernel (v5.4.44): Extracting archive
+2.770   - Installing react/event-loop (v1.5.0): Extracting archive
+2.770   - Installing evenement/evenement (v3.0.2): Extracting archive
+2.770   - Installing react/stream (v1.4.0): Extracting archive
+2.770   - Installing react/promise (v3.2.0): Extracting archive
+2.771   - Installing react/cache (v1.2.0): Extracting archive
+2.771   - Installing react/dns (v1.13.0): Extracting archive
+2.771   - Installing react/socket (v1.16.0): Extracting archive
+2.771   - Installing fig/http-message-util (1.1.5): Extracting archive
+2.772   - Installing react/http (v1.10.0): Extracting archive
+2.772   - Installing paragonie/random_compat (v9.99.100): Extracting archive
+2.772   - Installing paragonie/sodium_compat (v1.21.1): Extracting archive
+2.772   - Installing pusher/pusher-php-server (5.0.3): Extracting archive
+2.773   - Installing voku/portable-ascii (1.6.1): Extracting archive
+2.773   - Installing phpoption/phpoption (1.9.3): Extracting archive
+2.773   - Installing graham-campbell/result-type (v1.1.3): Extracting archive
+2.773   - Installing vlucas/phpdotenv (v5.6.1): Extracting archive
+2.773   - Installing symfony/css-selector (v5.4.40): Extracting archive
+2.774   - Installing tijsverkoyen/css-to-inline-styles (v2.2.7): Extracting archive
+2.774   - Installing symfony/routing (v5.4.43): Extracting archive
+2.774   - Installing symfony/process (v5.4.44): Extracting archive
+2.774   - Installing symfony/polyfill-intl-normalizer (v1.31.0): Extracting archive
+2.775   - Installing symfony/polyfill-intl-idn (v1.31.0): Extracting archive
+2.775   - Installing symfony/mime (v5.4.43): Extracting archive
+2.775   - Installing symfony/finder (v5.4.43): Extracting archive
+2.775   - Installing symfony/polyfill-intl-grapheme (v1.31.0): Extracting archive
+2.776   - Installing symfony/string (v5.4.44): Extracting archive
+2.776   - Installing psr/container (1.1.2): Extracting archive
+2.776   - Installing symfony/service-contracts (v2.5.3): Extracting archive
+2.776   - Installing symfony/console (v5.4.44): Extracting archive
+2.776   - Installing symfony/polyfill-iconv (v1.31.0): Extracting archive
+2.777   - Installing doctrine/lexer (1.2.3): Extracting archive
+2.777   - Installing egulias/email-validator (2.1.25): Extracting archive
+2.777   - Installing swiftmailer/swiftmailer (v6.3.0): Extracting archive
+2.777   - Installing symfony/polyfill-php81 (v1.31.0): Extracting archive
+2.778   - Installing ramsey/collection (1.3.0): Extracting archive
+2.778   - Installing brick/math (0.9.3): Extracting archive
+2.778   - Installing ramsey/uuid (4.2.3): Extracting archive
+2.778   - Installing psr/simple-cache (1.0.1): Extracting archive
+2.779   - Installing opis/closure (3.6.3): Extracting archive
+2.779   - Installing symfony/translation-contracts (v2.5.3): Extracting archive
+2.779   - Installing symfony/translation (v5.4.44): Extracting archive
+2.779   - Installing psr/clock (1.0.0): Extracting archive
+2.779   - Installing carbonphp/carbon-doctrine-types (2.1.0): Extracting archive
+2.780   - Installing nesbot/carbon (2.72.5): Extracting archive
+2.780   - Installing monolog/monolog (2.9.3): Extracting archive
+2.780   - Installing league/mime-type-detection (1.16.0): Extracting archive
+2.780   - Installing league/flysystem (1.1.10): Extracting archive
+2.781   - Installing nette/utils (v3.2.10): Extracting archive
+2.781   - Installing nette/schema (v1.2.5): Extracting archive
+2.781   - Installing dflydev/dot-access-data (v3.0.3): Extracting archive
+2.781   - Installing league/config (v1.2.0): Extracting archive
+2.782   - Installing league/commonmark (2.5.3): Extracting archive
+2.782   - Installing laravel/serializable-closure (v1.3.5): Extracting archive
+2.782   - Installing webmozart/assert (1.11.0): Extracting archive
+2.782   - Installing dragonmantank/cron-expression (v3.4.0): Extracting archive
+2.783   - Installing doctrine/inflector (2.0.10): Extracting archive
+2.783   - Installing laravel/framework (v8.83.27): Extracting archive
+2.783   - Installing ralouphie/getallheaders (3.0.3): Extracting archive
+2.783   - Installing psr/http-factory (1.1.0): Extracting archive
+2.784   - Installing guzzlehttp/psr7 (2.7.0): Extracting archive
+2.784   - Installing facade/ignition-contracts (1.0.2): Extracting archive
+2.784   - Installing ratchet/rfc6455 (v0.3.1): Extracting archive
+2.784   - Installing cboden/ratchet (v0.4.4): Extracting archive
+2.784   - Installing beyondcode/laravel-websockets (1.14.1): Extracting archive
+2.785   - Installing cocur/slugify (v4.5.0): Extracting archive
+2.785   - Installing cviebrock/eloquent-sluggable (8.0.8): Extracting archive
+2.785   - Installing fideloper/proxy (4.4.2): Extracting archive
+2.785   - Installing asm89/stack-cors (v2.2.0): Extracting archive
+2.786   - Installing fruitcake/laravel-cors (v2.2.0): Extracting archive
+2.786   - Installing guzzlehttp/promises (2.0.4): Extracting archive
+2.786   - Installing intervention/image (2.7.2): Extracting archive
+2.786   - Installing intervention/imagecache (2.6.0): Extracting archive
+2.787   - Installing laravel/legacy-factories (v1.4.0): Extracting archive
+2.787   - Installing paragonie/constant_time_encoding (v2.7.0): Extracting archive
+2.787   - Installing phpseclib/phpseclib (3.0.42): Extracting archive
+2.787   - Installing nyholm/psr7 (1.8.2): Extracting archive
+2.787   - Installing league/uri-interfaces (2.3.0): Extracting archive
+2.788   - Installing league/uri (6.7.2): Extracting archive
+2.788   - Installing league/event (2.2.0): Extracting archive
+2.788   - Installing lcobucci/clock (2.0.0): Extracting archive
+2.788   - Installing lcobucci/jwt (4.0.4): Extracting archive
+2.788   - Installing defuse/php-encryption (v2.4.0): Extracting archive
+2.789   - Installing league/oauth2-server (8.4.2): Extracting archive
+2.789   - Installing firebase/php-jwt (v6.10.0): Extracting archive
+2.789   - Installing laravel/passport (v10.4.2): Extracting archive
+2.789   - Installing psr/http-client (1.0.3): Extracting archive
+2.790   - Installing guzzlehttp/guzzle (7.9.2): Extracting archive
+2.790   - Installing league/oauth1-client (v1.10.1): Extracting archive
+2.790   - Installing laravel/socialite (v5.16.0): Extracting archive
+2.790   - Installing nikic/php-parser (v5.3.1): Extracting archive
+2.791   - Installing psy/psysh (v0.12.4): Extracting archive
+2.791   - Installing laravel/tinker (v2.10.0): Extracting archive
+2.791   - Installing laravel/ui (v3.4.6): Extracting archive
+2.791   - Installing laravelcollective/html (v6.4.1): Extracting archive
+2.792   - Installing livewire/livewire (v2.12.8): Extracting archive
+2.792   - Installing mindscms/entrust (v2.6.0): Extracting archive
+2.792   - Installing nicolaslopezj/searchable (1.13.0): Extracting archive
+2.792   - Installing predis/predis (v1.1.10): Extracting archive
+2.793   - Installing spatie/valuestore (1.3.0): Extracting archive
+2.793   - Installing ezyang/htmlpurifier (v4.17.0): Extracting archive
+2.793   - Installing stevebauman/purify (v4.0.1): Extracting archive
+2.812    0/116 [>---------------------------]   0%
+2.969   28/116 [======>---------------------]  24%
+3.073   40/116 [=========>------------------]  34%
+3.188   54/116 [=============>--------------]  46%
+3.290   65/116 [===============>------------]  56%
+3.403   78/116 [==================>---------]  67%
+3.528   90/116 [=====================>------]  77%
+3.642  100/116 [========================>---]  86%
+3.754  108/116 [==========================>-]  93%
+3.841  116/116 [============================] 100%
+4.176 Package beyondcode/laravel-websockets is abandoned, you should avoid using it. No replacement was suggested.
+4.176 Package fruitcake/laravel-cors is abandoned, you should avoid using it. No replacement was suggested.
+4.176 Package intervention/imagecache is abandoned, you should avoid using it. No replacement was suggested.
+4.176 Package laravelcollective/html is abandoned, you should avoid using it. Use spatie/laravel-html instead.
+4.176 Package swiftmailer/swiftmailer is abandoned, you should avoid using it. Use symfony/mailer instead.
+4.176 Generating optimized autoload files
+5.756 > Illuminate\Foundation\ComposerScripts::postAutoloadDump
+5.775 > @php artisan package:discover --ansi
+5.976 Discovered Package: beyondcode/laravel-websockets
+5.976 Discovered Package: cviebrock/eloquent-sluggable
+5.976 Discovered Package: fideloper/proxy
+5.976 Discovered Package: fruitcake/laravel-cors
+5.976 Discovered Package: intervention/image
+5.976 Discovered Package: laravel/legacy-factories
+5.976 Discovered Package: laravel/passport
+5.976 Discovered Package: laravel/socialite
+5.976 Discovered Package: laravel/tinker
+5.976 Discovered Package: laravel/ui
+5.976 Discovered Package: laravelcollective/html
+5.976 Discovered Package: livewire/livewire
+5.976 Discovered Package: mindscms/entrust
+5.976 Discovered Package: nesbot/carbon
+5.976 Discovered Package: stevebauman/purify
+5.976 Package manifest generated successfully.
+5.989 70 packages you are using are looking for funding.
+5.989 Use the `composer fund` command to find out more!
+6.191 Cached events cleared!
+6.191 Compiled views cleared!
+6.199
+6.202 In AbstractConnection.php line 155:
+6.202
+6.202   Connection refused [tcp://127.0.0.1:6379]
+6.202
+6.202
+------
+==> Building image
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+Waiting for depot builder...
+==> Building image with Depot
+--> build:  (​)
+[+] Building 16.8s (16/22)
+ => [internal] load build definition from Dockerfile       0.4s
+ => => transferring dockerfile: 3.86kB                     0.4s
+ => resolve image config for docker-image://docker.io/doc  0.8s
+ => CACHED docker-image://docker.io/docker/dockerfile:exp  0.0s
+ => => resolve docker.io/docker/dockerfile:experimental@s  0.0s
+ => [internal] load build definition from Dockerfile       0.0s
+ => => Deduplicating step ID [internal] load build defini  0.0s
+ => [internal] load .dockerignore                          0.5s
+ => => transferring context: 35B                           0.5s
+ => [internal] load metadata for docker.io/library/node:1  0.4s
+ => [internal] load metadata for docker.io/fideloper/fly-  0.6s
+ => [node_modules_go_brrr 1/7] FROM docker.io/library/nod  0.0s
+ => => resolve docker.io/library/node:18@sha256:ddd173cd9  0.0s
+ => [base 1/5] FROM docker.io/fideloper/fly-laravel:7.4@s  0.0s
+ => => resolve docker.io/fideloper/fly-laravel:7.4@sha256  0.0s
+ => [internal] load build context                          8.1s
+ => => transferring context: 242.94kB                      8.1s
+ => CACHED [base 2/5] COPY . /var/www/html                 0.0s
+ => CACHED [node_modules_go_brrr 2/7] RUN mkdir /app       0.0s
+ => CACHED [node_modules_go_brrr 3/7] RUN mkdir -p  /app   0.0s
+ => CACHED [node_modules_go_brrr 4/7] WORKDIR /app         0.0s
+ => CACHED [node_modules_go_brrr 5/7] COPY . .             0.0s
+ => ERROR [base 3/5] RUN composer install --optimize-auto  5.7s
+------
+ > [base 3/5] RUN composer install --optimize-autoloader --no-dev     && mkdir -p storage/logs     && php artisan optimize:clear     && chown -R www-data:www-data /var/www/html     && echo "MAILTO=""\n* * * * * www-data /usr/bin/php /var/www/html/artisan schedule:run" > /etc/cron.d/laravel     && cp .fly/entrypoint.sh /entrypoint     && chmod +x /entrypoint:
+0.202 Installing dependencies from lock file
+0.210 Verifying lock file contents can be installed on current platform.
+0.237 Package operations: 116 installs, 0 updates, 0 removals
+0.240   - Downloading symfony/polyfill-php80 (v1.31.0)
+0.241   - Downloading symfony/polyfill-mbstring (v1.31.0)
+0.241   - Downloading symfony/deprecation-contracts (v2.5.3)
+0.241   - Downloading symfony/http-foundation (v5.4.44)
+0.241   - Downloading psr/http-message (1.1)
+0.242   - Downloading symfony/psr-http-message-bridge (v2.3.1)
+0.242   - Downloading symfony/polyfill-php73 (v1.31.0)
+0.242   - Downloading symfony/polyfill-ctype (v1.31.0)
+0.243   - Downloading psr/event-dispatcher (1.0.0)
+0.243   - Downloading symfony/event-dispatcher-contracts (v2.5.3)
+0.243   - Downloading symfony/event-dispatcher (v5.4.40)
+0.243   - Downloading symfony/var-dumper (v5.4.43)
+0.244   - Downloading psr/log (1.1.4)
+0.244   - Downloading symfony/error-handler (v5.4.42)
+0.244   - Downloading symfony/http-kernel (v5.4.44)
+0.244   - Downloading react/event-loop (v1.5.0)
+0.245   - Downloading evenement/evenement (v3.0.2)
+0.245   - Downloading react/stream (v1.4.0)
+0.245   - Downloading react/promise (v3.2.0)
+0.245   - Downloading react/cache (v1.2.0)
+0.246   - Downloading react/dns (v1.13.0)
+0.246   - Downloading react/socket (v1.16.0)
+0.246   - Downloading fig/http-message-util (1.1.5)
+0.246   - Downloading react/http (v1.10.0)
+0.247   - Downloading paragonie/random_compat (v9.99.100)
+0.247   - Downloading paragonie/sodium_compat (v1.21.1)
+0.247   - Downloading pusher/pusher-php-server (5.0.3)
+0.247   - Downloading voku/portable-ascii (1.6.1)
+0.247   - Downloading phpoption/phpoption (1.9.3)
+0.247   - Downloading graham-campbell/result-type (v1.1.3)
+0.248   - Downloading vlucas/phpdotenv (v5.6.1)
+0.248   - Downloading symfony/css-selector (v5.4.40)
+0.248   - Downloading tijsverkoyen/css-to-inline-styles (v2.2.7)
+0.248   - Downloading symfony/routing (v5.4.43)
+0.248   - Downloading symfony/process (v5.4.44)
+0.248   - Downloading symfony/polyfill-intl-normalizer (v1.31.0)
+0.248   - Downloading symfony/polyfill-intl-idn (v1.31.0)
+0.249   - Downloading symfony/mime (v5.4.43)
+0.249   - Downloading symfony/finder (v5.4.43)
+0.249   - Downloading symfony/polyfill-intl-grapheme (v1.31.0)
+0.249   - Downloading symfony/string (v5.4.44)
+0.249   - Downloading psr/container (1.1.2)
+0.249   - Downloading symfony/service-contracts (v2.5.3)
+0.249   - Downloading symfony/console (v5.4.44)
+0.249   - Downloading symfony/polyfill-iconv (v1.31.0)
+0.250   - Downloading doctrine/lexer (1.2.3)
+0.250   - Downloading egulias/email-validator (2.1.25)
+0.250   - Downloading swiftmailer/swiftmailer (v6.3.0)
+0.250   - Downloading symfony/polyfill-php81 (v1.31.0)
+0.250   - Downloading ramsey/collection (1.3.0)
+0.250   - Downloading brick/math (0.9.3)
+0.251   - Downloading ramsey/uuid (4.2.3)
+0.251   - Downloading psr/simple-cache (1.0.1)
+0.251   - Downloading opis/closure (3.6.3)
+0.251   - Downloading symfony/translation-contracts (v2.5.3)
+0.251   - Downloading symfony/translation (v5.4.44)
+0.251   - Downloading psr/clock (1.0.0)
+0.252   - Downloading carbonphp/carbon-doctrine-types (2.1.0)
+0.252   - Downloading nesbot/carbon (2.72.5)
+0.252   - Downloading monolog/monolog (2.9.3)
+0.252   - Downloading league/mime-type-detection (1.16.0)
+0.252   - Downloading league/flysystem (1.1.10)
+0.252   - Downloading nette/utils (v3.2.10)
+0.253   - Downloading nette/schema (v1.2.5)
+0.253   - Downloading dflydev/dot-access-data (v3.0.3)
+0.253   - Downloading league/config (v1.2.0)
+0.253   - Downloading league/commonmark (2.5.3)
+0.253   - Downloading laravel/serializable-closure (v1.3.5)
+0.253   - Downloading webmozart/assert (1.11.0)
+0.254   - Downloading dragonmantank/cron-expression (v3.4.0)
+0.254   - Downloading doctrine/inflector (2.0.10)
+0.254   - Downloading laravel/framework (v8.83.27)
+0.254   - Downloading ralouphie/getallheaders (3.0.3)
+0.254   - Downloading psr/http-factory (1.1.0)
+0.254   - Downloading guzzlehttp/psr7 (2.7.0)
+0.255   - Downloading facade/ignition-contracts (1.0.2)
+0.255   - Downloading ratchet/rfc6455 (v0.3.1)
+0.255   - Downloading cboden/ratchet (v0.4.4)
+0.255   - Downloading beyondcode/laravel-websockets (1.14.1)
+0.255   - Downloading cocur/slugify (v4.5.0)
+0.255   - Downloading cviebrock/eloquent-sluggable (8.0.8)
+0.256   - Downloading fideloper/proxy (4.4.2)
+0.256   - Downloading asm89/stack-cors (v2.2.0)
+0.256   - Downloading fruitcake/laravel-cors (v2.2.0)
+0.256   - Downloading guzzlehttp/promises (2.0.4)
+0.256   - Downloading intervention/image (2.7.2)
+0.256   - Downloading intervention/imagecache (2.6.0)
+0.257   - Downloading laravel/legacy-factories (v1.4.0)
+0.257   - Downloading paragonie/constant_time_encoding (v2.7.0)
+0.257   - Downloading phpseclib/phpseclib (3.0.42)
+0.257   - Downloading nyholm/psr7 (1.8.2)
+0.257   - Downloading league/uri-interfaces (2.3.0)
+0.257   - Downloading league/uri (6.7.2)
+0.258   - Downloading league/event (2.2.0)
+0.258   - Downloading lcobucci/clock (2.0.0)
+0.258   - Downloading lcobucci/jwt (4.0.4)
+0.258   - Downloading defuse/php-encryption (v2.4.0)
+0.258   - Downloading league/oauth2-server (8.4.2)
+0.258   - Downloading firebase/php-jwt (v6.10.0)
+0.259   - Downloading laravel/passport (v10.4.2)
+0.259   - Downloading psr/http-client (1.0.3)
+0.259   - Downloading guzzlehttp/guzzle (7.9.2)
+0.259   - Downloading league/oauth1-client (v1.10.1)
+0.259   - Downloading laravel/socialite (v5.16.0)
+0.259   - Downloading nikic/php-parser (v5.3.1)
+0.260   - Downloading psy/psysh (v0.12.4)
+0.260   - Downloading laravel/tinker (v2.10.0)
+0.260   - Downloading laravel/ui (v3.4.6)
+0.260   - Downloading laravelcollective/html (v6.4.1)
+0.260   - Downloading livewire/livewire (v2.12.8)
+0.260   - Downloading mindscms/entrust (v2.6.0)
+0.260   - Downloading nicolaslopezj/searchable (1.13.0)
+0.261   - Downloading predis/predis (v1.1.10)
+0.261   - Downloading spatie/valuestore (1.3.0)
+0.261   - Downloading ezyang/htmlpurifier (v4.17.0)
+0.261   - Downloading stevebauman/purify (v4.0.1)
+0.267    0/116 [>---------------------------]   0%
+1.436   12/116 [==>-------------------------]  10%
+1.536   29/116 [=======>--------------------]  25%
+1.640   39/116 [=========>------------------]  33%
+1.741   52/116 [============>---------------]  44%
+1.841   69/116 [================>-----------]  59%
+1.947   78/116 [==================>---------]  67%
+2.052   93/116 [======================>-----]  80%
+2.173  108/116 [==========================>-]  93%
+2.301  116/116 [============================] 100%
+2.301   - Installing symfony/polyfill-php80 (v1.31.0): Extracting archive
+2.305   - Installing symfony/polyfill-mbstring (v1.31.0): Extracting archive
+2.307   - Installing symfony/deprecation-contracts (v2.5.3): Extracting archive
+2.309   - Installing symfony/http-foundation (v5.4.44): Extracting archive
+2.311   - Installing psr/http-message (1.1): Extracting archive
+2.313   - Installing symfony/psr-http-message-bridge (v2.3.1): Extracting archive
+2.315   - Installing symfony/polyfill-php73 (v1.31.0): Extracting archive
+2.317   - Installing symfony/polyfill-ctype (v1.31.0): Extracting archive
+2.318   - Installing psr/event-dispatcher (1.0.0): Extracting archive
+2.320   - Installing symfony/event-dispatcher-contracts (v2.5.3): Extracting archive
+2.322   - Installing symfony/event-dispatcher (v5.4.40): Extracting archive
+2.322   - Installing symfony/var-dumper (v5.4.43): Extracting archive
+2.322   - Installing psr/log (1.1.4): Extracting archive
+2.323   - Installing symfony/error-handler (v5.4.42): Extracting archive
+2.323   - Installing symfony/http-kernel (v5.4.44): Extracting archive
+2.323   - Installing react/event-loop (v1.5.0): Extracting archive
+2.323   - Installing evenement/evenement (v3.0.2): Extracting archive
+2.324   - Installing react/stream (v1.4.0): Extracting archive
+2.324   - Installing react/promise (v3.2.0): Extracting archive
+2.324   - Installing react/cache (v1.2.0): Extracting archive
+2.324   - Installing react/dns (v1.13.0): Extracting archive
+2.324   - Installing react/socket (v1.16.0): Extracting archive
+2.325   - Installing fig/http-message-util (1.1.5): Extracting archive
+2.325   - Installing react/http (v1.10.0): Extracting archive
+2.325   - Installing paragonie/random_compat (v9.99.100): Extracting archive
+2.325   - Installing paragonie/sodium_compat (v1.21.1): Extracting archive
+2.326   - Installing pusher/pusher-php-server (5.0.3): Extracting archive
+2.326   - Installing voku/portable-ascii (1.6.1): Extracting archive
+2.326   - Installing phpoption/phpoption (1.9.3): Extracting archive
+2.326   - Installing graham-campbell/result-type (v1.1.3): Extracting archive
+2.326   - Installing vlucas/phpdotenv (v5.6.1): Extracting archive
+2.327   - Installing symfony/css-selector (v5.4.40): Extracting archive
+2.327   - Installing tijsverkoyen/css-to-inline-styles (v2.2.7): Extracting archive
+2.327   - Installing symfony/routing (v5.4.43): Extracting archive
+2.327   - Installing symfony/process (v5.4.44): Extracting archive
+2.327   - Installing symfony/polyfill-intl-normalizer (v1.31.0): Extracting archive
+2.328   - Installing symfony/polyfill-intl-idn (v1.31.0): Extracting archive
+2.328   - Installing symfony/mime (v5.4.43): Extracting archive
+2.328   - Installing symfony/finder (v5.4.43): Extracting archive
+2.328   - Installing symfony/polyfill-intl-grapheme (v1.31.0): Extracting archive
+2.328   - Installing symfony/string (v5.4.44): Extracting archive
+2.329   - Installing psr/container (1.1.2): Extracting archive
+2.329   - Installing symfony/service-contracts (v2.5.3): Extracting archive
+2.329   - Installing symfony/console (v5.4.44): Extracting archive
+2.329   - Installing symfony/polyfill-iconv (v1.31.0): Extracting archive
+2.330   - Installing doctrine/lexer (1.2.3): Extracting archive
+2.330   - Installing egulias/email-validator (2.1.25): Extracting archive
+2.330   - Installing swiftmailer/swiftmailer (v6.3.0): Extracting archive
+2.330   - Installing symfony/polyfill-php81 (v1.31.0): Extracting archive
+2.330   - Installing ramsey/collection (1.3.0): Extracting archive
+2.331   - Installing brick/math (0.9.3): Extracting archive
+2.331   - Installing ramsey/uuid (4.2.3): Extracting archive
+2.331   - Installing psr/simple-cache (1.0.1): Extracting archive
+2.331   - Installing opis/closure (3.6.3): Extracting archive
+2.331   - Installing symfony/translation-contracts (v2.5.3): Extracting archive
+2.332   - Installing symfony/translation (v5.4.44): Extracting archive
+2.332   - Installing psr/clock (1.0.0): Extracting archive
+2.332   - Installing carbonphp/carbon-doctrine-types (2.1.0): Extracting archive
+2.332   - Installing nesbot/carbon (2.72.5): Extracting archive
+2.332   - Installing monolog/monolog (2.9.3): Extracting archive
+2.333   - Installing league/mime-type-detection (1.16.0): Extracting archive
+2.333   - Installing league/flysystem (1.1.10): Extracting archive
+2.333   - Installing nette/utils (v3.2.10): Extracting archive
+2.333   - Installing nette/schema (v1.2.5): Extracting archive
+2.334   - Installing dflydev/dot-access-data (v3.0.3): Extracting archive
+2.334   - Installing league/config (v1.2.0): Extracting archive
+2.334   - Installing league/commonmark (2.5.3): Extracting archive
+2.334   - Installing laravel/serializable-closure (v1.3.5): Extracting archive
+2.335   - Installing webmozart/assert (1.11.0): Extracting archive
+2.335   - Installing dragonmantank/cron-expression (v3.4.0): Extracting archive
+2.335   - Installing doctrine/inflector (2.0.10): Extracting archive
+2.335   - Installing laravel/framework (v8.83.27): Extracting archive
+2.335   - Installing ralouphie/getallheaders (3.0.3): Extracting archive
+2.336   - Installing psr/http-factory (1.1.0): Extracting archive
+2.336   - Installing guzzlehttp/psr7 (2.7.0): Extracting archive
+2.336   - Installing facade/ignition-contracts (1.0.2): Extracting archive
+2.336   - Installing ratchet/rfc6455 (v0.3.1): Extracting archive
+2.336   - Installing cboden/ratchet (v0.4.4): Extracting archive
+2.337   - Installing beyondcode/laravel-websockets (1.14.1): Extracting archive
+2.337   - Installing cocur/slugify (v4.5.0): Extracting archive
+2.337   - Installing cviebrock/eloquent-sluggable (8.0.8): Extracting archive
+2.337   - Installing fideloper/proxy (4.4.2): Extracting archive
+2.338   - Installing asm89/stack-cors (v2.2.0): Extracting archive
+2.338   - Installing fruitcake/laravel-cors (v2.2.0): Extracting archive
+2.338   - Installing guzzlehttp/promises (2.0.4): Extracting archive
+2.338   - Installing intervention/image (2.7.2): Extracting archive
+2.338   - Installing intervention/imagecache (2.6.0): Extracting archive
+2.339   - Installing laravel/legacy-factories (v1.4.0): Extracting archive
+2.339   - Installing paragonie/constant_time_encoding (v2.7.0): Extracting archive
+2.339   - Installing phpseclib/phpseclib (3.0.42): Extracting archive
+2.339   - Installing nyholm/psr7 (1.8.2): Extracting archive
+2.339   - Installing league/uri-interfaces (2.3.0): Extracting archive
+2.340   - Installing league/uri (6.7.2): Extracting archive
+2.340   - Installing league/event (2.2.0): Extracting archive
+2.340   - Installing lcobucci/clock (2.0.0): Extracting archive
+2.340   - Installing lcobucci/jwt (4.0.4): Extracting archive
+2.341   - Installing defuse/php-encryption (v2.4.0): Extracting archive
+2.341   - Installing league/oauth2-server (8.4.2): Extracting archive
+2.341   - Installing firebase/php-jwt (v6.10.0): Extracting archive
+2.341   - Installing laravel/passport (v10.4.2): Extracting archive
+2.341   - Installing psr/http-client (1.0.3): Extracting archive
+2.342   - Installing guzzlehttp/guzzle (7.9.2): Extracting archive
+2.342   - Installing league/oauth1-client (v1.10.1): Extracting archive
+2.342   - Installing laravel/socialite (v5.16.0): Extracting archive
+2.342   - Installing nikic/php-parser (v5.3.1): Extracting archive
+2.342   - Installing psy/psysh (v0.12.4): Extracting archive
+2.343   - Installing laravel/tinker (v2.10.0): Extracting archive
+2.343   - Installing laravel/ui (v3.4.6): Extracting archive
+2.343   - Installing laravelcollective/html (v6.4.1): Extracting archive
+2.343   - Installing livewire/livewire (v2.12.8): Extracting archive
+2.344   - Installing mindscms/entrust (v2.6.0): Extracting archive
+2.344   - Installing nicolaslopezj/searchable (1.13.0): Extracting archive
+2.344   - Installing predis/predis (v1.1.10): Extracting archive
+2.344   - Installing spatie/valuestore (1.3.0): Extracting archive
+2.344   - Installing ezyang/htmlpurifier (v4.17.0): Extracting archive
+2.345   - Installing stevebauman/purify (v4.0.1): Extracting archive
+2.367    0/116 [>---------------------------]   0%
+2.504   20/116 [====>-----------------------]  17%
+2.614   37/116 [========>-------------------]  31%
+2.717   47/116 [===========>----------------]  40%
+2.819   59/116 [==============>-------------]  50%
+2.929   73/116 [=================>----------]  62%
+3.047   84/116 [====================>-------]  72%
+3.154   94/116 [======================>-----]  81%
+3.379  114/116 [===========================>]  98%
+3.395  116/116 [============================] 100%
+3.611 Package beyondcode/laravel-websockets is abandoned, you should avoid using it. No replacement was suggested.
+3.611 Package fruitcake/laravel-cors is abandoned, you should avoid using it. No replacement was suggested.
+3.611 Package intervention/imagecache is abandoned, you should avoid using it. No replacement was suggested.
+3.611 Package laravelcollective/html is abandoned, you should avoid using it. Use spatie/laravel-html instead.
+3.611 Package swiftmailer/swiftmailer is abandoned, you should avoid using it. Use symfony/mailer instead.
+3.611 Generating optimized autoload files
+5.167 > Illuminate\Foundation\ComposerScripts::postAutoloadDump
+5.183 > @php artisan package:discover --ansi
+5.350 Discovered Package: beyondcode/laravel-websockets
+5.350 Discovered Package: cviebrock/eloquent-sluggable
+5.350 Discovered Package: fideloper/proxy
+5.350 Discovered Package: fruitcake/laravel-cors
+5.350 Discovered Package: intervention/image
+5.350 Discovered Package: laravel/legacy-factories
+5.350 Discovered Package: laravel/passport
+5.350 Discovered Package: laravel/socialite
+5.350 Discovered Package: laravel/tinker
+5.350 Discovered Package: laravel/ui
+5.350 Discovered Package: laravelcollective/html
+5.350 Discovered Package: livewire/livewire
+5.350 Discovered Package: mindscms/entrust
+5.350 Discovered Package: nesbot/carbon
+5.350 Discovered Package: stevebauman/purify
+5.350 Package manifest generated successfully.
+5.361 70 packages you are using are looking for funding.
+5.361 Use the `composer fund` command to find out more!
+5.554 Cached events cleared!
+5.554 Compiled views cleared!
+5.562
+5.566 In AbstractConnection.php line 155:
+5.566
+5.566   Connection refused [tcp://127.0.0.1:6379]
+5.566
+5.566
+------
+Error: failed to fetch an image or build from source: error building: failed to solve: process "/bin/sh -c composer install --optimize-autoloader --no-dev     && mkdir -p storage/logs     && php artisan optimize:clear     && chown -R www-data:www-data /var/www/html     && echo \"MAILTO=\\\"\\\"\\n* * * * * www-data /usr/bin/php /var/www/html/artisan schedule:run\" > /etc/cron.d/laravel     && cp .fly/entrypoint.sh /entrypoint     && chmod +x /entrypoint" did not complete successfully: exit code: 1
+
+C:\xam
