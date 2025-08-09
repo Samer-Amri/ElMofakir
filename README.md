@@ -4,32 +4,32 @@ A comprehensive Laravel-based academic journal management platform that enables 
 
 ## ✨ Key Features
 
-    📚 **Academic Journal Platform** - Complete scholarly article publication system
-    📑 **Article Management** - Multi-language posts with categories, tags, and media attachments
-    📢 **Announcements System** - Official journal announcements and news
-    👥 **Role-Based Access** - Admin, Editor, Professional, and User roles with permissions
-    📖 **Volume & Issue Management** - Organize articles by publication volumes and issues
-    💾 **PDF Management** - Upload, manage, and bulk download research papers
-    🔍 **Advanced Search** - Full-text search across articles and announcements
-    🌐 **Multilingual Support** - Arabic and English content support
-    📧 **Email Notifications** - Automated notifications for content management
-    📊 **Admin Dashboard** - Comprehensive backend for content and user management
-    📱 **RESTful API** - Complete API for mobile/frontend applications
-    🔐 **Secure Authentication** - Laravel Passport OAuth2 implementation
-    👤 **Professional Profiles** - CV uploads and researcher profile management
+- 📚 **Academic Journal Platform** - Complete scholarly article publication system
+- 📑 **Article Management** - Multi-language posts with categories, tags, and media attachments
+- 📢 **Announcements System** - Official journal announcements and news
+- 👥 **Role-Based Access** - Admin, Editor, Professional, and User roles with permissions
+- 📖 **Volume & Issue Management** - Organize articles by publication volumes and issues
+- 💾 **PDF Management** - Upload, manage, and bulk download research papers
+- 🔍 **Advanced Search** - Full-text search across articles and announcements
+- 🌐 **Multilingual Support** - Arabic and English content support
+- 📧 **Email Notifications** - Automated notifications for content management
+- 📊 **Admin Dashboard** - Comprehensive backend for content and user management
+- 📱 **RESTful API** - Complete API for mobile/frontend applications
+- 🔐 **Secure Authentication** - Laravel Passport OAuth2 implementation
+- 👤 **Professional Profiles** - CV uploads and researcher profile management
 
 ## 🧰 Tech Stack
 
-    **Backend:** Laravel 8.x (PHP 7.3+)
-    **Authentication:** Laravel Passport (OAuth2) + Role-based permissions (Entrust)
-    **Frontend:** Blade Templates + Bootstrap 4 + Vue.js components
-    **Database:** MySQL with advanced relationships
-    **Search:** Laravel Scout with searchable traits
-    **File Management:** Intervention Image for media processing
-    **Real-time:** Laravel WebSockets + Pusher
-    **Localization:** Multi-language support (Arabic/English)
-    **Admin Panel:** Custom-built responsive admin interface
-    **APIs:** RESTful API with resource transformers
+- **Backend:** Laravel 8.x (PHP 7.3+)
+- **Authentication:** Laravel Passport (OAuth2) + Role-based permissions (Entrust)
+- **Frontend:** Blade Templates + Bootstrap 4 + Vue.js components
+- **Database:** MySQL with advanced relationships
+- **Search:** Laravel Scout with searchable traits
+- **File Management:** Intervention Image for media processing
+- **Real-time:** Laravel WebSockets + Pusher
+- **Localization:** Multi-language support (Arabic/English)
+- **Admin Panel:** Custom-built responsive admin interface
+- **APIs:** RESTful API with resource transformers
 
 ## 📁 Project Structure
 
